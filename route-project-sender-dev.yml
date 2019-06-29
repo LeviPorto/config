@@ -1,0 +1,3 @@
+feign:
+  api:
+    route-project: route-project
