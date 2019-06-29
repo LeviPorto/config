@@ -1,3 +1,8 @@
 feign:
   api:
     route-project: route-project
+spring:
+  kafka:
+    bootstrap-servers: "localhost:9092"
+    topic:
+      coordinate: "coordinate"
