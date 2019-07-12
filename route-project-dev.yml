@@ -3,7 +3,7 @@ spring:
     host: 192.168.99.100
     port: 6379
   datasource:
-    url: jdbc:mysql://localhost:3306/route-control
+    url: jdbc:mysql://localhost:3306/route-control?autoReconnect=true&useSSL=false
     username: root
     password: q11W22e33#
   kafka:
