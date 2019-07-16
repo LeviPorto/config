@@ -1,0 +1,16 @@
+spring:
+  redis:
+    host: 192.168.99.100
+    port: 6379
+  datasource:
+    url: jdbc:mysql://localhost:3306/route-control?autoReconnect=true&useSSL=false
+    username: root
+    password: q11W22e33#
+  kafka:
+    bootstrap-servers: "localhost:9092"
+    topic:
+      coordinate: "coordinate"
+      group: 1234
+jwt:
+  secret: _@HRL&L3tF?Z7ccj4z&L5!nU2B!Rjs3_
+  expiration: 604800
