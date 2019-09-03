@@ -3,6 +3,9 @@ spring:
     url: jdbc:mysql://localhost:3306/manager?autoReconnect=true&useSSL=false
     username: root
     password: q11W22e33#
+  jpa:
+    hibernate:
+      ddl-auto: create
   kafka:
     bootstrap-servers: "localhost:9092"
     topic:
