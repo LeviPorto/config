@@ -6,7 +6,8 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-      dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+      dialect: org.hibernate.dialect.MySQL5Dialect
+        storage_engine: innodb
   kafka:
     bootstrap-servers: "localhost:9092"
     topic:
