@@ -7,7 +7,3 @@ spring:
     topic:
       coordinate: "COORDINATE_EVENT_SOURCING"
       group: 1234
-nasa-api:
-  api-key: DEMO_KEY
-  api-version: 1.0
-  api-feed-type: json
